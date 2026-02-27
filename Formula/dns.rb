@@ -2,7 +2,7 @@ class Dns < Formula
   desc "DNS and network configuration inspector for macOS"
   homepage "https://github.com/ansilithic/dns"
   url "https://github.com/ansilithic/dns/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "cab32100d16be9734e18f863969ba4d4faa3e877e68241a4298045a8e6a808cd"
+  sha256 "a3234bfa9aef7e4597cf869043b43ebfdff2f5d195c38372519a26436887ce59"
   license "MIT"
 
   depends_on xcode: ["16.0", :build]

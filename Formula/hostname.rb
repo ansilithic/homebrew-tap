@@ -2,7 +2,7 @@ class Hostname < Formula
   desc "View and manage all three macOS hostname types"
   homepage "https://github.com/ansilithic/hostname"
   url "https://github.com/ansilithic/hostname/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "1b437d1f14ddf759cb3b7b7760217268dea98a0130b872c903eaf26c968d3860"
+  sha256 "a782e07bef396425910af07939949aa685c750b0d02059c831fa7151e95c733b"
   license "MIT"
 
   depends_on xcode: ["16.0", :build]
