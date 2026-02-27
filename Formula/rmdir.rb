@@ -14,6 +14,6 @@ class Rmdir < Formula
   end
 
   test do
-    assert_match "USAGE", shell_output("#{bin}/rmdir --help 2>&1", 0)
+    assert_match "USAGE", shell_output("#{bin}/rmdir 2>&1", 64)
   end
 end

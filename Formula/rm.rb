@@ -14,6 +14,6 @@ class Rm < Formula
   end
 
   test do
-    assert_match "USAGE", shell_output("#{bin}/rm --help 2>&1", 0)
+    assert_match "USAGE", shell_output("#{bin}/rm 2>&1", 64)
   end
 end
